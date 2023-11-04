@@ -22,12 +22,8 @@ Jest handles the testing, ensuring the system's reliability."
 Puppeteer launches a headless browser and simulates user actions.
 Jest test case checks login time; if it exceeds 15 seconds, an email is sent.
 Nodemailer handles the email notification process."
-Slide 5: Demonstration
-
-"Here's a live demonstration of our system:
 
 Puppeteer logs in, monitors the time taken, and captures screenshots.
-If the login exceeds 15 seconds, it triggers an immediate email notification to the developer.
 
 "Our system offers:
 
@@ -41,12 +37,13 @@ Reliable testing with Jest for robust performance."
 
 first Step
 --
+npm -y init
 npm install jest nodemailer nodemailer-smtp-transport puppeteer
 
 --Create a new test file, for example, login.test.js. In this file, you'll write your Jest test case.
 
 Step 2: Write the Test Case
-In login.test.js
+
 
 Step 3: Configure Jest
 In your package.json file, add the following configuration to run your tests with Jest:
