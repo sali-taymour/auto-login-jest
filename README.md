@@ -16,7 +16,7 @@ Automated Login and Email Notification System
 Puppeteer navigates to the login page and inputs credentials.
 If the login takes more than 15 seconds, an email notification is sent to the developer.
 Jest handles the testing, ensuring the system's reliability."
-Slide 4: Code Structure
+
 
 
 Puppeteer launches a headless browser and simulates user actions.
