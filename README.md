@@ -38,3 +38,28 @@ Reliable testing with Jest for robust performance."
  Conclusion
 
 "In conclusion, our automated login and email notification system ensures seamless user experiences and swift responses to any login delays. 
+
+first Step
+--
+npm install jest nodemailer nodemailer-smtp-transport puppeteer
+
+--Create a new test file, for example, login.test.js. In this file, you'll write your Jest test case.
+
+Step 2: Write the Test Case
+In login.test.js
+
+Step 3: Configure Jest
+In your package.json file, add the following configuration to run your tests with Jest:
+
+{
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
+
+Step 4: Run Your Tests
+Run your tests using the following command: 
+npm test

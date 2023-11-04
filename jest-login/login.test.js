@@ -20,7 +20,7 @@ describe("Login and Email Test", () => {
     try {
       // Navigate to the login page
       await page.goto(
-        ""
+        "url"
       );
       await page.waitForTimeout(1000);
 
